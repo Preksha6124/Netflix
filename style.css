@@ -1,0 +1,260 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Helvetica;
+}
+
+body {
+    background-color:black;
+}
+
+.main {
+    background-image:url("assets/images/bg.jpg");
+    height:700px;
+    background-size:(1200px,100px);
+    background-position: center center;
+    background-repeat:no-repeat;
+}
+
+.box {
+    height:700px;
+    width:100%;
+    opacity:0.7;
+    position: absolute;
+    top:0;
+    background-color:black;
+    
+}
+
+.navbar {
+    height:44px;
+    width:77%;
+    position: relative;
+    top:20px;
+    margin:auto;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo {
+    height: 40px;
+    width:150px;
+    margin-left:10px;
+}
+
+/** box2 **/
+.nav-select  {
+    border:0.1px outset inset grey;
+    background-color: #0f1111;
+    color:white;
+    font-size:1rem;
+    font-weight:700;
+    width:125px;
+    height:32px;
+    text-align: center;
+    margin-right:10px;
+}
+
+.nav-box2 button{
+    background-color:red;
+    color:white;
+    text-decoration:none;
+    font-size:1rem;
+    font-weight:700;
+    border-radius:4px;
+    border-width:0.0625rem;
+    height:32px;
+    width:80px;
+}
+
+/** main text **/
+.heading {
+    font-family:helvetica;
+    height:250;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    top:240px;
+    gap:23px;
+}
+
+.heading h1 {
+    height:60px;
+    font-size:2.7rem;
+    font-weight:900;
+    text-align:center;
+}
+ 
+.heading p {
+    height:30px;
+    font-size:1.5rem;
+    font-weight:400;
+    width:870px;
+    text-align:center;
+}
+
+.heading h3 {
+    height:30px;
+    width:870px;
+    font-size:1.2rem;
+    text-align:center;
+}
+ 
+/** search **/
+
+.search input {
+    background-color:rgb(25, 23, 23,0.6);
+    color:white;
+    padding:20px 16px;
+    border:0.5px solid grey;
+    font-size:1.3rem;
+    font-weight:400;
+    position:relative;
+    border-radius:4px;
+    height:20px;
+    width:350px;
+}
+
+.search button {
+    font-weight:bolder;
+    background-color:red;
+    color:white;
+    font-size:1.5rem;
+    height:60px;
+    width:230px;
+    border-radius:6px;
+}
+
+/** 2nd slide **/
+.slide2 {
+    height:542px;
+    background-color:black;
+
+}
+
+.border1 {
+    height:7px;
+    background-color:rgb(45, 44, 44);
+}
+ 
+.content2 {
+    color:white;
+    display:flex;
+    position:relative;
+    top:50px;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    height:400px;
+    width:95%;
+}
+
+.slide-tv img {
+    width:515px;
+    height:400px;
+    position:relative;
+    z-index:10;
+    background-size:cover;
+}
+
+.slide-tv video {
+    position:absolute;
+    top:60px;
+    right:158px;
+
+}
+
+.text2 {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:64px;
+    width:570px;
+}
+
+.text2 h1 {
+    font-size:2.5rem;
+    font-weight:900;
+}
+
+.text2 p {
+    font-size:1.5rem;
+    font-weight:400;
+    padding-top:16px;
+}
+
+/** Questions **/
+.questions {
+    height:800px;
+    margin:auto;
+}
+
+.questions h2 {
+    color:white;
+    width:95%;
+    height:64px;
+    margin-top:30px;
+    font-size:3rem;
+    font-weight:900;
+    text-align:center;
+}
+
+.questions button {
+    height:84px;
+    background-color:#2d2d2d;
+    display:flex;
+    flex-direction:column;
+    box-sizing: border-box;
+    width:80%;
+    color:white;
+    font-weight:500;
+    font-size:1.5rem;
+    padding:24px;
+    margin-top:20px;
+    margin-left:150px;
+    position:relative;
+    text-align:left;
+}
+ 
+.questions button:hover {
+    background-color: rgb(122, 119, 119);
+}
+
+footer {
+    height:300px;
+    background-color:black;
+    color:white;
+    position:relative;
+    top:60px;
+}
+
+.last-slide div {
+    display:flex;
+    justify-content: space-evenly;
+    height:50px;
+    width:90%;
+    margin:auto;
+}
+
+ul a{
+    color:white;
+    display:block;
+    font-size:0.85rem;
+    margin-top:10px;
+}
+
+footer p {
+    margin-left:255px;
+}
+
+
+ 
+
+
+
+
+
